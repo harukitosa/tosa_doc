@@ -1,0 +1,21 @@
+site_name: tosadoc
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - About: about.md
+  - GCP:
+    - pubsub: gcp/pubsub.md
+theme: material
+plugins:
+  - offline
+  - search
+  - social
+  - tags
+
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
