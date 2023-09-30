@@ -1,5 +1,5 @@
 site_name: tosadoc
-site_url: https://example.com/
+site_url: https://harukitosa.github.io/tosadoc/
 nav:
   - Home: index.md
   - About: about.md
