@@ -96,7 +96,14 @@ A popular supervised learning algorithm is the Support Vector Machine (SVM) \cit
     \includegraphics[width=0.91\textwidth]{plots/svm_flowchart.pdf}
     \caption{In this experiment we performed limited data preprocessing that is standard for state-of-the-art classical techniques, before using the quantum processor to estimate the kernel matrix $\hat{K}_{ij}$ for all pairs of encoded datapoints $<br/>
  和訳: <br/>
-\onecolumn<br/><br/>
+
+ SVMの定式化において、$\langle x_i, x_j\rangle$は、対称正定値のカーネル関数$k(x_i, x_j)$に置き換えられます\cite{Aizerman1964}。すべてのカーネル関数は、特徴ヒルベルト空間への入力データの写像に対応する内積に対応しているため\cite{aronszajn1950theory}、高次元写像上で訓練されたSVMによって見つかった線形分類境界は、入力空間での複雑な非線形関数に対応します。
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.91\textwidth]{plots/svm_flowchart.pdf}
+\caption{この実験では、量子プロセッサを使用してエンコードされたデータポイントのすべてのペアのためのカーネル行列$\hat{K}_{ij}$を推定する前に、最先端の古典的技術の標準である限定的なデータ前処理を実行しました。$<br/>
+<br/><br/>
 
 [6]<br/>
  本文: <br/>
