@@ -3,7 +3,7 @@ site_url: https://harukitosa.github.io/tosadoc/
 nav:
   - Home: index.md
   - About: about.md
-  - These: these/these1.md
+  - These: these/machineLearningOfHighDimensionalDataOnANoisyQuantumProcessor.md
   - GCP:
     - pubsub: gcp/pubsub.md
 theme: material
