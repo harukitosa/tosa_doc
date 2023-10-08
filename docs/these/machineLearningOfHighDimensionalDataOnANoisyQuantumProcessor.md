@@ -1,5 +1,9 @@
 # Machine learning of high dimensional data on a noisy quantum processor
 
+```
+gptによる機械翻訳です和訳後の文章は正確ではありません。
+```
+
 [1]<br/>
  本文: <br/>
 
@@ -359,9 +363,9 @@ assifier accuracy applied to datasets of restricted size. Typically the time cos
 
 Training the SVM classifier in postprocessing required choosing a single hyperparameter $C$ that applies a penalty for misclassification, which can significantly affect the noise robustness of the final classifier. To determine $C$ without overfitting the model, we performed leave-one-out cross <br/>
  和訳: <br/>
-Classifier accuracy has been applied to datasets of limited size. In these cases, the time required to compute the decision function (Equation \ref{eq:decision_main}) is typically reduced to a fraction of $mv$ because only a small subset of training inputs are selected as support vectors. However, in our hardware experiments, we observed that a large portion ($>90\%$) of the data in $\mathcal{T}$ were selected as support vectors. This is likely due to a combination of a complex decision boundary and noise in the calculation of $\hat{K}$.
+制限されたサイズのデータセットに適用される分類器の精度。通常、決定関数（方程式\ref{eq:decision_main}）の計算の時間コストは、サポートベクターとして選択される訓練入力の一部のみが考慮されるため、$mv$の一部に削減されます。しかし、ハードウェアの実験では、$\mathcal{T}$内のデータの大部分（$>90 %$）が複雑な決定境界と$\hat{K}$の計算のノイズの組み合わせにより、サポートベクターとして選択されることが観察されました。
 
-When training the SVM classifier in postprocessing, we needed to choose a hyperparameter $C$ that imposes a penalty for misclassification. This choice can greatly impact the noise robustness of the final classifier. In order to determine the appropriate value for $C$ without overfitting the model, we conducted leave-one-out cross validation.<br/><br/>
+後処理でのSVM分類器の訓練は、誤分類に対するペナルティを適用する単一のハイパーパラメータ$C$を選択することを必要としました。これは、最終的な分類器のノイズの堅牢性に大きな影響を与えることができます。モデルの過学習をせずに$C$を決定するために、我々は一つ抜き交差を実行しました。<br/><br/>
 
 [23]<br/>
  本文: <br/>
