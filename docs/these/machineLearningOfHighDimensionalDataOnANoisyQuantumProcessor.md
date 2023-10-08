@@ -4,6 +4,27 @@
 gptによる機械翻訳です和訳後の文章は正確ではありません。
 ```
 
+[arxiv link](https://arxiv.org/abs/2101.09581)
+
+## abstruct
+
+We present a quantum kernel method for high-dimensional data analysis using Google's universal quantum processor, Sycamore. %Rainbow-23.
+This method is successfully applied to the cosmological benchmark of supernova classification using real spectral features with no dimensionality reduction and without vanishing kernel elements.
+
+Instead of using a synthetic dataset of low dimension or pre-processing the data with a classical machine learning algorithm to reduce the data dimension, this experiment demonstrates that machine learning with real, high dimensional data is possible using a quantum processor; but it requires careful attention to shot statistics and mean kernel element size when constructing a circuit ansatz.
+
+Our experiment utilizes 17 qubits to classify 67 dimensional data - significantly higher dimensionality than the largest prior quantum kernel experiments - resulting in classification accuracy that is competitive with noiseless simulation and comparable classical techniques.
+
+---
+
+
+Googleの汎用量子プロセッサ、Sycamoreを使用して、高次元データ分析のための量子カーネル方法を提案します。%Rainbow-23。
+この方法は、次元削減を行わず、カーネル要素が消失しない実際のスペクトル特徴を使用して、宇宙学のベンチマークである超新星の分類に成功的に適用されました。
+
+低次元の合成データセットを使用するか、データの次元を削減するために古典的な機械学習アルゴリズムでデータを前処理する代わりに、この実験は、量子プロセッサを使用した実際の高次元データの機械学習が可能であることを示しています。しかし、回路アンザッツを構築する際に、ショットの統計と平均カーネル要素のサイズに注意が必要です。
+
+私たちの実験は、17の量子ビットを利用して67次元のデータを分類します - これは、これまでの最大の量子カーネル実験よりもはるかに高い次元性です - その結果、ノイズのないシミュレーションと比較可能な古典的な技術と競合する分類精度を達成しました。
+
 [1]<br/>
  本文: <br/>
 
