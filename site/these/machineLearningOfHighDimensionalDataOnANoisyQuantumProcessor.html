@@ -650,10 +650,9 @@ Classifier accuracy has been applied to datasets of limited size. In these cases
 <p>When training the SVM classifier in postprocessing, we needed to choose a hyperparameter $C$ that imposes a penalty for misclassification. This choice can greatly impact the noise robustness of the final classifier. In order to determine the appropriate value for $C$ without overfitting the model, we conducted leave-one-out cross validation.<br/><br/></p>
 <p>[23]<br/>
  本文: <br/>
-validation (LOOCV) on $\mathcal{T}$ to determine $C_{opt}$ corresponding to the maximum mean LOOCV score. We then fixed $C=C_{opt}$ to evaluate the test accuracy $\frac{1}{v}\sum_{j=1}^v \Pr( f(x_j)\neq y_j)$ on reserved datapoints taken from $\mathcal{V}$. Figure \ref{fig:hero1} shows the classifier accuracies for each number of qubits, and demonstrates that the performance of the QKM is not restricted by the number of qubits used. Significantly, the QKM classifier performs reasonably well even when observed bitstring probabilities (and therefore $\hat{K}<em>{ij}$) are suppressed by a factor of 50\%-70\% due to limited circuit fidelity. This is due in part to the fact that the SVM decision function is invariant under scaling transformations $K \rightarrow r K$ and highlights the noise robust<br/>
- 和訳: <br/>
-定義されたカーネル行列の$C</em>{opt}$を求めるためにテストデータ$\mathcal{T}$上でのLeave-One-Out Cross 
-<br/><br/></p>
+validation (LOOCV) on $\mathcal{T}$ to determine $C_{opt}$ corresponding to the maximum mean LOOCV score. We then fixed $C=C_{opt}$ to evaluate the test accuracy $\frac{1}{v}\sum_{j=1}^v \Pr( f(x_j)\neq y_j)$ on reserved datapoints taken from $\mathcal{V}$. Figure \ref{fig:hero1} shows the classifier accuracies for each number of qubits, and demonstrates that the performance of the QKM is not restricted by the number of qubits used. Significantly, the QKM classifier performs reasonably well even when observed bitstring probabilities (and therefore $\hat{K}_{ij}$) are suppressed by a factor of 50\%-70\% due to limited circuit fidelity. This is due in part to the fact that the SVM decision function is invariant under scaling transformations $K \rightarrow r K$ and highlights the noise robust<br/>
+ 和訳: <br/></p>
+<p>$\mathcal{T}$上の一つ抜き交差検証（LOOCV）を行い、最大の平均LOOCVスコアに対応する$C_{opt}$を決定します。次に、$C=C_{opt}$を固定して、$\mathcal{V}$から取得された予約されたデータポイント上でのテスト精度$\frac{1}{v}\sum_{j=1}^v \Pr( f(x_j)\neq y_j)$を評価します。図\ref{fig:hero1}は、キュビット数ごとの分類器の精度を示しており、QKMのパフォーマンスが使用されるキュビットの数によって制限されていないことを示しています。特に、回路の忠実度が低いためにビット文字列の確率（そしてしたがって$\hat{K}_{ij}$）が50％-70％の要因で抑制されている場合でも、QKM分類器はかなりうまく機能します。これは、SVMの決定関数がスケーリング変換$K \rightarrow r K$の下で不変であるという事実に部分的に起因しており、ノイズに対する堅牢性を強調しています。</p>
 <p>[24]<br/>
  本文: <br/>
 ness of quantum kernel methods.</p>
