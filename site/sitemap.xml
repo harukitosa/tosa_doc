@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/index.html</loc>
-         <lastmod>2023-09-23</lastmod>
+         <loc>https://harukitosa.github.io/tosadoc/index.html</loc>
+         <lastmod>2023-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/about.html</loc>
-         <lastmod>2023-09-23</lastmod>
+         <loc>https://harukitosa.github.io/tosadoc/about.html</loc>
+         <lastmod>2023-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/gcp/pubsub.html</loc>
-         <lastmod>2023-09-23</lastmod>
+         <loc>https://harukitosa.github.io/tosadoc/gcp/pubsub.html</loc>
+         <lastmod>2023-10-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://harukitosa.github.io/tosadoc/these/these1.html</loc>
+         <lastmod>2023-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
